@@ -1,0 +1,44 @@
+/* Container for the table and chart */
+.table-container, .chart-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the filter inputs */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
